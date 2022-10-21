@@ -330,3 +330,13 @@ for (i = 30; i <= 86; i++) {
 }
 */
 // Write the price of the book that you have. Display the prices if the prices is lower then 200
+/* 
+var books_price = [100, 299, 200, 300, 400];
+for (var i = 0; i < books_price.length; i++) {
+  var price = books_price[i];
+  if (price <= 200) {
+    console.log(price);
+    continue;
+  }
+}
+*/
